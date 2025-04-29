@@ -8,7 +8,6 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <form action="{{ route('register') }}" method="POST" class="mb-3">
-                    {{-- validation --}}
                     @csrf
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>

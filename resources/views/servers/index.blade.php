@@ -28,7 +28,6 @@
                                     class="text-decoration-none text-dark">{{ $server->server_ip }}</a></td>
                             <td>{{ $server->server_details }}</td>
                             <td>{{ $server->note->count() ? 'Has Notes ' : 'null' }}</td>
-                            {{-- <td>{{ $server->note()->note }}</td> --}}
                             <td>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal"

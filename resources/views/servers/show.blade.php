@@ -51,7 +51,6 @@
                                                             <label for="note" class="form-label">Note</label>
                                                             <textarea class="form-control" id="note{{ $note->id }}" name="note" rows="3">{{ $note->note }}</textarea>
                                                         </div>
-                                                        {{-- <input type="hidden" name="server_id" value="{{ $server->id }}"> --}}
                                                         <button type="submit" class="btn btn-primary">Update Note</button>
                                                         <button type="button" class="btn btn-secondary"
                                                             data-bs-dismiss="modal">Close</button>
